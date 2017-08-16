@@ -17,6 +17,27 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hola mundo...!");
+        
+        
+        //OPERACIONES DE BITS
+        // &  = AND
+        // |  = OR
+        // ^  = XOR
+        int a = 32;
+        int b;
+        
+        System.out.println(a);
+        b = a << 2; // Desplaza 2 bit (binario) hacia la izquierda
+        System.out.println(b);
+        
+        b = a >> 2; // Desplaza 2 bit (binario) hacia la derecha
+        System.out.println(b);
+        
+        b = a & 2; // Desplaza 2 bit (binario) hacia la izquierda
+        System.out.println(b);
+        
+        
+        
     }
     
 }
