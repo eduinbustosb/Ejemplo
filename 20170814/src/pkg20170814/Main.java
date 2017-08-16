@@ -23,7 +23,7 @@ public class Main {
         // &  = AND
         // |  = OR
         // ^  = XOR
-        int a = 32;
+        int a = 33;
         int b;
         
         System.out.println(a);
@@ -37,6 +37,13 @@ public class Main {
         System.out.println(b);
         
         
+        //CICLOS FOR         
+        int i;
+        for(i=0; i<5;i++) {
+            System.out.println(i);
+            break;
+        }
+        System.out.println(i);
         
     }
     
